@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>My Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="global-container">
+        <nav class="mobile-menu">
+            <div>
+                <span class="my-page">MyPage</span>
+            </div>
+            <ul class="mobile-menu__main">
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#profile">
+                        <span class="main-title">My Profile</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#hobby">
+                        <span class="main-title">My Qulifications</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#blog">
+                        <span class="main-title">My Blog</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div id="mobile-container">
+            <div class="mobile-menu__cover"></div>
+            <section class="hero">
+                <div class="swiper-container appear down">
+                    <div class="hero-title item ">Welcom! My page!</div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="circle" src="./images/prog.jpg" alt=""></div>
+                            <div class="swiper-slide"><img class="circle" src="./images/room.jpg" alt=""></div>
+                            <div class="swiper-slide"><img class="circle" src="./images/pcDog.jpg" alt=""></div>
+                            <div class="swiper-slide"><img class="circle" src="./images/ipad.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="circle3"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 462 464">
+                        <defs>
+                            <style>
+                                .a {
+                                    fill: #ffffff;
+                                }
+                            </style>
+                        </defs>
+                        <path class="a" fill-opacity="var(--circle-opacity,1)"
+                            d="M231,464a231.744,231.744,0,0,1-46.554-4.713,229.207,229.207,0,0,1-82.6-34.908A232.363,232.363,0,0,1,141.085,18.232,229.111,229.111,0,0,1,184.446,4.713a232.267,232.267,0,0,1,93.109,0,229.207,229.207,0,0,1,82.6,34.908,232.364,232.364,0,0,1-39.239,406.147,229.117,229.117,0,0,1-43.361,13.518A231.744,231.744,0,0,1,231,464Zm2.381-340.268a109.854,109.854,0,0,0-77.461,31.711,107.849,107.849,0,0,0-23.477,34.414,107.457,107.457,0,0,0,0,84.285,107.849,107.849,0,0,0,23.477,34.414,110.295,110.295,0,0,0,154.922,0,107.846,107.846,0,0,0,23.477-34.414,107.456,107.456,0,0,0,0-84.285,107.846,107.846,0,0,0-23.477-34.414,109.853,109.853,0,0,0-77.461-31.711Z">
+                        </path>
+                    </svg>
+                    <header class="header">
+                        <div class="header-left">
+                            <span class="my-page">MyPortfolio</span>
+                        </div>
+                        <div class="header-right">
+                            <nav>
+                                <ul>
+                                    <li><a href="#profile">profile</a></li>
+                                    <li><a href="#hobby">qulifications</a></li>
+                                    <li><a href="#blog">blog</a></li>
+                                </ul>
+                            </nav>
+                            <button class="mobile-menu__btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </header>
+                </div>
+            </section>
+            <div class="back-img-frame">
+
+                <div id="container">
+                    <section class="profile" id="profile">
+                        <div class="profile-content1">
+                            <div class="profile-left">
+                                <div class="img-box"><img class="circle" src="./images/my_pic.jpeg" alt=""></div>
+                                <div class="img-box2"><img width="300" height="290" src="./images/circle.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="profile-right">
+                                <div>
+                                    <div class="profile-main-title">I'm a Aoyama Gakuin University stutent.</div>
+                                </div>
+
+                                <div class="profile_description">
+                                    <div class="">fourth grade & faculty of Law.</div>
+                                    <div> Since my third year at university, I have been working part-time at an IT
+                                        venture
+                                        company using programming(c#).</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="profile-content2 ">
+                            <span class="skill ">My good </span>
+                            <span class="skill2 ">skill</span>
+                            <div class="laravel ">
+                                <div class="laravel-left appear left">
+                                    <div class="img-box item"><img src="./images/laravel.png" alt=""></div>
+                                </div>
+                                <div class="laravel-right">
+                                    <span class="laravel-text main-title animate-title">Laravel</span>
+                                </div>
+                            </div>
+                            <div class="vue ">
+                                <div class="vue-left ">
+                                    <span class="vue-text main-title animate-title">Vue.js</span>
+                                </div>
+                                <div class="vue-right appear right">
+                                    <div class="img-box item"><img src="./images/vue.png" alt=""></div>
+                                </div>
+                            </div>
+
+                            <div class="profile-right">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="hobby" id="hobby">
+                        <div class="hobby-content">
+
+                            <div class="hobby-description appear down ">
+                                <span>I have knowledge about </span>
+                                <span class="aws item ">AWS. </span>
+                                <br />
+                                <span>And i have 1 </span>
+                                <span class="aws item">qulifications.</span>
+                            </div>
+                            <div class="img-container0 appear down">
+                                <div class="fundmental main-title animate-title">fundmental</div>
+                                <div class="img-box0 item"><img class="circle1" src="./images/ACP.png" alt=""></div>
+                            </div>
+
+                            <div class="img-container">
+                                <div class="animate-title main-title">associate(not yet)</div>
+                                <div class="img-box1 "><img class="circle1" src="./images/ASA.png" alt=""></div>
+                                <div class="img-container-2 ">
+                                    <div class="img-box2 "><img class="circle2" src="./images/ACOA.png" alt=""></div>
+                                    <div class="img-box3 "><img class="circle3" src="./images/ADA.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="blog">
+                        <div class="blog-content">
+                            <div class="back-color"></div>
+                            <div class="blog-left">
+                                <div class="imgbox"><img src="./images/blog.jpg" alt=""></div>
+                            </div>
+
+                            <div class="blog-right">
+                                <div>
+                                    <div class="blog-main-title">
+                                        <span>I write a</span>
+                                        <span class="yellow">blog</span>
+                                        <span class="purple">.</span>
+                                    </div>
+
+                                    <div class="blog_description">My blog site is made by customizing the wordpress
+                                        theme.</div>
+                                </div>
+                                <div class="blog-button">
+                                    <a class="btn cover-3d item" href="https://tomo-info.net/"><span>click
+                                            me!</span></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="./js/libs/text-animation.js"></script>
+    <script src="./js/vendors/TweenMax.min.js"></script>
+    <script src="./js/libs/mobile-menu.js"></script>
+    <script src="./js/libs/scroll.js"></script>
+    <script src="./js/libs/hero-slider.js"></script>
+    <script src="./js/libs/resize.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
